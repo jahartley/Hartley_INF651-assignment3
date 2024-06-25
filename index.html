@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Judson Hartley INF651</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div style="height: 20px;"></div>
+    <div id="mainContainer">
+      <h1 id="title"></h1>
+      <div style="display: flex; justify-content: space-between;"><p>Judson Hartley</p><a id="repositoryUrl" href=""><p>Repository</p></a><p id="date"></p></div>
+    </div>
+    <div style="height: 20px;"></div>
+    <div id="mainContainer">
+      <h2>Array Analyzer</h2>
+      <p>Input a series of numbers, separated by commas. Then Array Analyzer will return the maximum, minimum, average and a list of the even numbers in the array.</p>
+      <div>
+        <label for="inputArr">Enter a comma separated list of numbers.</label> 
+        <input id="inputArr" type="text" oninput="makeArray(this.value)" style="width: 542px;">
+      </div>
+      <div id="resultDisplay" style="word-break: break-all;">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <div style="height: 40px;"></div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
